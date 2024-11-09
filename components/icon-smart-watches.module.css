@@ -1,0 +1,100 @@
+.phoneIcon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 0;
+}
+.watchesIcon {
+  width: 12px;
+  height: 6px;
+  position: relative;
+  z-index: 4;
+}
+.cameraIcon {
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  margin: 0 !important;
+  top: -6.9px;
+  right: -7.7px;
+  z-index: 0;
+}
+.headphonesIconParentChild {
+  width: 2px;
+  position: relative;
+  border-right: 2px solid var(--main-black);
+  box-sizing: border-box;
+  height: 15px;
+}
+.headphonesIconParentItem {
+  width: 2px;
+  position: relative;
+  border-right: 2px solid var(--main-black);
+  box-sizing: border-box;
+  height: 10px;
+}
+.headphonesIconParentInner {
+  width: 2px;
+  position: relative;
+  border-right: 2px solid var(--main-black);
+  box-sizing: border-box;
+  height: 12px;
+}
+.headphonesIconParent {
+  height: 11.1px;
+  width: 8.6px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  z-index: 1;
+}
+.cameraIconContainer {
+  height: 11.1px;
+  width: 8.6px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.cameraIconWrapper {
+  width: 10.3px;
+  height: 11.1px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 0px var(--padding-11xs-7);
+  box-sizing: border-box;
+  z-index: 5;
+}
+.headphonesIcon {
+  width: 12px;
+  height: 6px;
+  position: relative;
+  z-index: 3;
+}
+.iconsmartWatches {
+  height: 48px;
+  width: 48px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-lg);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-6xs-5);
+}

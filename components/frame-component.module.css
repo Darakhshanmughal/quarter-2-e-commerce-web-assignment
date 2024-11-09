@@ -1,0 +1,344 @@
+.playstation {
+  height: 343px;
+  width: calc(100% - 360px);
+  position: absolute;
+  margin: 0 !important;
+  top: 0px;
+  right: 360px;
+  left: 0px;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.playstation5 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 40px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.incrediblyPowerfulCpus {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 24px;
+  font-weight: 500;
+  color: var(--color-gray-100);
+}
+.titletext {
+  width: 338px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  gap: var(--gap-base);
+  max-width: 404px;
+  z-index: 1;
+}
+.wideSquare {
+  align-self: stretch;
+  background-color: var(--main-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-81xl) var(--padding-29xl);
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+}
+.apple {
+  margin: 0;
+  font-weight: 300;
+}
+.airpods {
+  font-weight: 300;
+}
+.max {
+  font-weight: 500;
+  font-family: var(--font-inter);
+}
+.airpodsMax {
+  margin: 0;
+}
+.appleAirpodsMaxContainer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 40px;
+  font-family: inherit;
+}
+.titletext1 {
+  height: 143px;
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 0px;
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  max-width: 168px;
+}
+.heroGnfk5g59t0qeXlarge2x1Icon {
+  height: 100%;
+  width: calc(100% - 256px);
+  position: absolute;
+  margin: 0 !important;
+  top: 0px;
+  right: 256px;
+  bottom: 0px;
+  left: 0px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.squareBanner {
+  flex: 1;
+  background-color: var(--color-whitesmoke-300);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-45xl-5) var(--padding-29xl);
+  box-sizing: border-box;
+  position: relative;
+  min-width: 234px;
+  max-width: 100%;
+}
+.appleVisionProContainer {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 40px;
+  font-family: inherit;
+}
+.titletext2 {
+  height: 144px;
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 0px;
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  max-width: 176px;
+}
+.image36Icon {
+  height: 69.85%;
+  width: 37.78%;
+  position: absolute;
+  margin: 0 !important;
+  top: 15.07%;
+  right: 62.22%;
+  bottom: 15.07%;
+  left: 0%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.squareBanner1 {
+  flex: 1;
+  background-color: var(--color-darkslategray);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-45xl) var(--padding-29xl);
+  box-sizing: border-box;
+  position: relative;
+  min-width: 234px;
+  max-width: 100%;
+  color: var(--main-white);
+}
+.squares {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  row-gap: 20px;
+  font-size: var(--font-size-10xl);
+}
+.leftBanners {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  min-width: 468px;
+  max-width: 100%;
+}
+.macbook {
+  font-weight: 100;
+}
+.air {
+  font-weight: 500;
+}
+.macbookAir {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 56px;
+  font-family: inherit;
+}
+.titletext3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 360px;
+}
+.macbookPro14 {
+  height: 502px;
+  width: 292px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 49px;
+  left: calc(50% + 68px);
+  object-fit: cover;
+}
+.bigBanner {
+  flex: 0.8444;
+  background-color: var(--color-whitesmoke-300);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-145xl) var(--padding-37xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-12xs);
+  min-width: 468px;
+  max-width: 100%;
+  font-size: var(--font-size-45xl);
+}
+.smallerBanners {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  row-gap: 20px;
+}
+.smallerBannersWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-61xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-30xl);
+  color: var(--main-black);
+  font-family: var(--font-inter);
+}
+
+@media screen and (max-width: 1125px) {
+  .leftBanners {
+    flex: 1;
+  }
+
+  .bigBanner {
+    flex: 1;
+  }
+
+  .smallerBanners {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .playstation5 {
+    font-size: var(--font-size-20xl);
+    line-height: 32px;
+  }
+
+  .squares {
+    flex-wrap: wrap;
+  }
+
+  .leftBanners {
+    min-width: 100%;
+  }
+
+  .macbookAir {
+    font-size: var(--font-size-32xl);
+    line-height: 45px;
+  }
+
+  .bigBanner {
+    padding: var(--padding-88xl) var(--padding-9xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+
+  .smallerBannersWrapper {
+    padding-bottom: var(--padding-33xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .playstation5 {
+    font-size: var(--font-size-10xl);
+    line-height: 24px;
+  }
+
+  .titletext {
+    max-width: 100%;
+  }
+
+  .wideSquare {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+
+  .appleAirpodsMaxContainer {
+    font-size: var(--font-size-4xl);
+    line-height: 32px;
+  }
+
+  .squareBanner {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+
+  .appleVisionProContainer {
+    font-size: var(--font-size-4xl);
+    line-height: 32px;
+  }
+
+  .squareBanner1 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+
+  .macbookAir {
+    font-size: var(--font-size-19xl);
+    line-height: 34px;
+  }
+}

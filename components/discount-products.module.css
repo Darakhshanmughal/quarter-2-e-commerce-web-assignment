@@ -1,0 +1,56 @@
+.discountsUpTo {
+  margin: 0;
+  width: 249px;
+  position: relative;
+  font-size: inherit;
+  line-height: 32px;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+}
+.row {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: 0px var(--padding-3xs) 0px 0px;
+  gap: 16px 12.7px;
+}
+.discountProducts {
+  align-self: stretch;
+  background-color: var(--main-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-61xl) var(--padding-141xl);
+  gap: var(--gap-13xl);
+  z-index: 5;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--main-black);
+  font-family: var(--font-inter);
+}
+
+@media screen and (max-width: 800px) {
+  .discountProducts {
+    gap: var(--gap-base);
+    padding: var(--padding-33xl) var(--padding-61xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .discountsUpTo {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+
+  .discountProducts {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

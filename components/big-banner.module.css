@@ -1,0 +1,68 @@
+.samsungGalaxy {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 48px;
+  font-weight: 300;
+  font-family: inherit;
+}
+.ipadCombinesA {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 24px;
+  font-weight: 500;
+  color: var(--color-gray-100);
+}
+.titletext {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: var(--gap-base);
+}
+.image41Icon {
+  width: 360px;
+  height: 360px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0px;
+  left: 0px;
+  object-fit: cover;
+}
+.bigBanner {
+  align-self: stretch;
+  flex: 0.961;
+  background-color: var(--color-whitesmoke-400);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-37xl) var(--padding-13xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-5xl);
+  min-width: 280px;
+  max-width: 100%;
+  z-index: 3;
+  text-align: left;
+  font-size: var(--font-size-14xl);
+  color: var(--main-black);
+  font-family: var(--font-inter);
+}
+
+@media screen and (max-width: 800px) {
+  .samsungGalaxy {
+    font-size: var(--font-size-7xl);
+    line-height: 38px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .samsungGalaxy {
+    font-size: var(--font-size-xl);
+    line-height: 29px;
+  }
+}

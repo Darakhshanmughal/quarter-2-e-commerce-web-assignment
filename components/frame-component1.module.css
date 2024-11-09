@@ -1,0 +1,178 @@
+.browseByCategory {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.01em;
+  line-height: 32px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.icon32pxarrow {
+  height: 32px;
+  width: 32px;
+  position: relative;
+}
+.icon32pxarrow1 {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  object-fit: contain;
+}
+.categoryNavigation {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.top {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.iconsmartWatchesWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-16xl) 0px var(--padding-15xl);
+}
+.smartWatches {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.categoryCard {
+  border-radius: var(--br-mini);
+  background-color: var(--color-whitesmoke-300);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-2xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  min-width: 135px;
+}
+.iconheadphones {
+  height: 48px;
+  width: 48px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iconheadphonesWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-6xl);
+}
+.categoryCard1 {
+  border-radius: var(--br-mini);
+  background-color: var(--color-whitesmoke-300);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-11xl) var(--padding-5xl)
+    var(--padding-12xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  min-width: 135px;
+}
+.iconcomputersWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-lgi) 0px var(--padding-lg);
+}
+.categoryCard2 {
+  border-radius: var(--br-mini);
+  background-color: var(--color-whitesmoke-300);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-18xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  min-width: 135px;
+}
+.icongamingWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-7xs) 0px var(--padding-8xs);
+}
+.categoryCard3 {
+  border-radius: var(--br-mini);
+  background-color: var(--color-whitesmoke-300);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-31xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  min-width: 135px;
+}
+.categoryGrid {
+  overflow-x: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-base);
+}
+.categoriesContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+}
+.categoriesContentWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px var(--padding-xl) var(--padding-61xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--main-black);
+  font-family: var(--font-inter);
+}
+
+@media screen and (max-width: 800px) {
+  .categoryGrid {
+    gap: var(--gap-base);
+  }
+
+  .categoriesContent {
+    gap: var(--gap-base);
+  }
+}
+@media screen and (max-width: 450px) {
+  .browseByCategory {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+
+  .top {
+    flex-wrap: wrap;
+  }
+}

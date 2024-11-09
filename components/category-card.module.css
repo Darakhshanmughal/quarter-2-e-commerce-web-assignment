@@ -1,0 +1,37 @@
+.iconphones {
+  height: 48px;
+  width: 48px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iconphonesWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-8xs);
+}
+.phones {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.categoryCard {
+  border-radius: var(--br-mini);
+  background-color: var(--color-whitesmoke-300);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-31xl) var(--padding-5xl)
+    var(--padding-32xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  min-width: 135px;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--main-black);
+  font-family: var(--font-inter);
+}

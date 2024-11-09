@@ -1,0 +1,24 @@
+.label {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.root {
+  border-radius: var(--br-7xs);
+  border: 1px solid var(--main-white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-37xl);
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--main-white);
+  font-family: var(--font-inter);
+}
+.root[data-icon="false"][data-state="Black Stroke"] {
+  border: 1px solid var(--main-black);
+}
+.root[data-icon="false"][data-state="Black Stroke"] .label {
+  color: var(--main-black);
+}

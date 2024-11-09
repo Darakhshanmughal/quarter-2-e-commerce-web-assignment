@@ -1,0 +1,114 @@
+.newArrival {
+  align-self: stretch;
+  position: relative;
+  line-height: 32px;
+  font-weight: 500;
+}
+.line {
+  align-self: stretch;
+  height: 2px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.selected {
+  height: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px 0px 0px;
+  box-sizing: border-box;
+  color: var(--main-black);
+}
+.bestseller {
+  position: relative;
+  line-height: 32px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 87px;
+}
+.featuredProducts {
+  position: relative;
+  line-height: 32px;
+  font-weight: 500;
+  text-align: left;
+}
+.tags {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0px var(--padding-690xl) 0px 0px;
+  gap: var(--gap-13xl);
+}
+.productsGrid {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 16px 12.7px;
+  font-size: var(--font-size-base);
+  color: var(--main-black);
+}
+.products {
+  align-self: stretch;
+  background-color: var(--main-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-37xl) var(--padding-141xl);
+  gap: var(--gap-13xl);
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-200);
+  font-family: var(--font-inter);
+}
+
+@media screen and (max-width: 1350px) {
+  .tags {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .tags {
+    padding-right: var(--padding-335xl);
+    box-sizing: border-box;
+  }
+
+  .products {
+    padding-top: var(--padding-17xl);
+    padding-bottom: var(--padding-17xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .tags {
+    gap: var(--gap-base);
+    padding-right: var(--padding-158xl);
+    box-sizing: border-box;
+  }
+
+  .products {
+    gap: var(--gap-base);
+    padding: var(--padding-4xl) var(--padding-61xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .tags {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+
+  .products {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,91 @@
+.bigSummer {
+  font-weight: 100;
+}
+.span {
+  font-weight: 300;
+}
+.sale {
+  font-weight: 500;
+}
+.bigSummerSaleContainer {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  line-height: 72px;
+  font-family: inherit;
+}
+.commodoFamesVitae {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 32px;
+  color: #787878;
+}
+.titles {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.content {
+  width: 553px;
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 65px);
+  left: calc(50% - 251.5px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 40px;
+  max-width: 100%;
+}
+.banner2 {
+  align-self: stretch;
+  height: 448px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-image: url("/banner-2@3x.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-width: 100%;
+  z-index: 6;
+  text-align: center;
+  font-size: 72px;
+  color: var(--main-white);
+  font-family: var(--font-inter);
+}
+.home {
+  width: 100%;
+  position: relative;
+  background-color: #fafafa;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 800px) {
+  .bigSummerSaleContainer {
+    font-size: 58px;
+    line-height: 58px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .bigSummerSaleContainer {
+    font-size: 43px;
+    line-height: 43px;
+  }
+}

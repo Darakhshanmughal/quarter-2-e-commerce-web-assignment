@@ -1,0 +1,72 @@
+.icon32pxlike {
+  width: 32px;
+  position: relative;
+  height: 32px;
+}
+.topSection {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.iphone14Pro1 {
+  width: 160px;
+  height: 160px;
+  position: relative;
+  object-fit: cover;
+}
+.appleIphone14 {
+  width: 236px;
+  height: 48px;
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+}
+.emptyList {
+  width: 236px;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  letter-spacing: 0.03em;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+}
+.info {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.texticon {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.root {
+  flex: 1;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-whitesmoke-200);
+  height: 432px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  min-width: 200px;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--main-black);
+  font-family: var(--font-inter);
+}
+.root[data-like="true"] .appleIphone14 {
+  height: unset;
+}

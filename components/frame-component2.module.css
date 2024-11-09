@@ -1,0 +1,166 @@
+.popularProducts {
+  margin: 0;
+  width: 297px;
+  position: relative;
+  font-size: inherit;
+  line-height: 48px;
+  font-weight: 300;
+  font-family: inherit;
+  display: inline-block;
+}
+.ipadCombinesA {
+  width: 296px;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 24px;
+  font-weight: 500;
+  color: var(--color-gray-100);
+  display: inline-block;
+}
+.image39 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 284.8px;
+  height: 282.5px;
+  object-fit: contain;
+}
+.image12Icon {
+  position: absolute;
+  top: 90.8px;
+  left: 117.5px;
+  width: 242.6px;
+  height: 236.2px;
+  object-fit: contain;
+  z-index: 1;
+}
+.image39Parent {
+  width: 360.1px;
+  height: 327px;
+  position: absolute;
+  margin: 0 !important;
+  top: 22px;
+  right: -0.1px;
+}
+.bigBanner {
+  flex: 1;
+  background-color: var(--main-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-357xl) var(--padding-xl) var(--padding-37xl)
+    var(--padding-13xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-base);
+  min-width: 280px;
+  max-width: 100%;
+  z-index: 1;
+}
+.ipadPro {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 48px;
+  font-weight: 300;
+  font-family: inherit;
+}
+.ipadCombinesA1 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 24px;
+  font-weight: 500;
+  color: var(--color-gray-100);
+}
+.titletext {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: var(--gap-base);
+}
+.image64Icon {
+  width: 360px;
+  height: 366px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 320px);
+  left: calc(50% - 180px);
+  object-fit: cover;
+}
+.bigBanner1 {
+  align-self: stretch;
+  flex: 0.961;
+  background-color: var(--color-whitesmoke-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-37xl) var(--padding-13xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-5xl);
+  min-width: 280px;
+  max-width: 100%;
+  z-index: 2;
+}
+.bigBannerParent {
+  align-self: stretch;
+  height: 640px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-14xl);
+  color: var(--main-black);
+  font-family: var(--font-inter);
+}
+
+@media screen and (max-width: 1125px) {
+  .bigBannerParent {
+    flex-wrap: wrap;
+    grid-row-gap: 20px;
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(270px, 468px));
+  }
+}
+@media screen and (max-width: 800px) {
+  .popularProducts {
+    font-size: var(--font-size-7xl);
+    line-height: 38px;
+  }
+
+  .bigBanner {
+    padding-top: var(--padding-225xl);
+    padding-bottom: var(--padding-17xl);
+    box-sizing: border-box;
+  }
+
+  .ipadPro {
+    font-size: var(--font-size-7xl);
+    line-height: 38px;
+  }
+
+  .bigBannerParent {
+    grid-template-columns: minmax(270px, 1fr);
+  }
+}
+@media screen and (max-width: 450px) {
+  .popularProducts {
+    font-size: var(--font-size-xl);
+    line-height: 29px;
+  }
+
+  .ipadPro {
+    font-size: var(--font-size-xl);
+    line-height: 29px;
+  }
+}

@@ -1,0 +1,21 @@
+.label {
+  height: 24px;
+  width: 60px;
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+}
+.button {
+  border-radius: var(--br-5xs);
+  background-color: var(--main-black);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-45xl);
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--main-white);
+  font-family: var(--font-inter);
+}
